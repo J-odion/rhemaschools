@@ -19,14 +19,11 @@ export default function DownloadFeesPage() {
         <div className="mb-8">
           <h1 className="text-3xl font-medium mb-2">Fee Structure Document</h1>
           <p className="text-gray-600 mb-4">
-            View, print, or download our complete fee structure for the 2023/2024 academic year.
+            View, print, or download our complete fee structure for the 2025 academic year.
           </p>
           <div className="bg-blue-50 p-4 rounded-md border border-blue-100 mb-6">
             <h3 className="text-blue-800 font-medium mb-2">Instructions:</h3>
             <ul className="list-disc pl-5 text-blue-700 space-y-1">
-              <li>
-                Click the <strong>Print</strong> button to print the document directly.
-              </li>
               <li>
                 Click the <strong>Download PDF</strong> button to generate a downloadable version.
               </li>

@@ -73,7 +73,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="text-lg font-medium text-gray-800">Email Address</h3>
-                        <p className="text-gray-600">info@rhemaschool.edu.lr</p>
+                        <p className="text-gray-600">info@rpss.academy</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">

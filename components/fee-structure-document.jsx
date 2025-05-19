@@ -23,7 +23,7 @@ export default function FeeStructureDocument() {
         <!DOCTYPE html>
         <html>
           <head>
-            <title>RHEMA School Fee Structure 2023-2024</title>
+            <title>RHEMA School Fee Structure</title>
             <style>
               body {
                 font-family: Arial, sans-serif;
@@ -121,10 +121,6 @@ export default function FeeStructureDocument() {
   return (
     <div className="w-full">
       <div className="flex justify-end gap-4 mb-4 print:hidden">
-        <Button variant="outline" className="flex items-center gap-2" onClick={handlePrint}>
-          <Printer className="h-4 w-4" />
-          Print
-        </Button>
         <Button
           className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
           onClick={handleDownload}
@@ -249,11 +245,9 @@ export default function FeeStructureDocument() {
             <div>
               <h3 className="font-medium">Contact Information</h3>
               <p className="text-gray-600">
-                For inquiries regarding fees and payments, please contact our finance office:
+                For inquiries regarding fees and payments, please contact our office:
                 <br />
-                Phone: +231 XX XXX XXXX
-                <br />
-                Email: finance@rhemaschool.edu.lr
+                Email: info@rpss.academy
               </p>
             </div>
           </div>

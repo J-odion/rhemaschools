@@ -140,7 +140,7 @@ export default function FeesPage() {
             <div className="text-center space-y-4">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Fee Structure</h1>
               <p className="mx-auto max-w-[700px] text-blue-100 md:text-xl">
-                RHEMA PRIMARY & SECONDARY SCHOOL SYSTEM Annual Tuition Fees 2023/2024
+                RHEMA PRIMARY & SECONDARY SCHOOL SYSTEM Annual Tuition Fees 2025
               </p>
               <div className="flex justify-center gap-4 mt-6">
                 <Button
@@ -222,7 +222,7 @@ export default function FeesPage() {
                           office.
                         </p>
                       </div>
-                      <div>
+                      {/* <div>
                         <h4 className="font-medium">Bank Details</h4>
                         <p className="text-gray-600">
                           Bank Name: [Bank Name]
@@ -231,7 +231,7 @@ export default function FeesPage() {
                           <br />
                           Account Number: XXXX-XXXX-XXXX
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   </CardContent>
                 </Card>

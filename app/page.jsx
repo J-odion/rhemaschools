@@ -214,7 +214,7 @@ export default function Home() {
           <div>
             <SectionHeading
               title="Fee Structure"
-              subtitle="View our comprehensive fee structure for the 2023/2024 academic year."
+              subtitle="View our comprehensive fee structure for the 2025 academic year."
             />
             <div className="space-y-6">
               <p className="text-gray-600">

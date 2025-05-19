@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="relative h-16 w-48">
               <Image src="/logo.png" alt="RHEMA PRIMARY & SECONDARY SCHOOL SYSTEM" fill className="object-contain" />
             </div>
-            <p className="text-gray-300 max-w-xs font-light">
+            <p className="text-gray-300 max-w-xs text-xs font-light">
               RHEMA PRIMARY & SECONDARY SCHOOL SYSTEM is committed to nurturing young minds and preparing them for
               future success through quality education and character development.
             </p>
@@ -54,7 +54,7 @@ export default function Footer() {
 
           {/* Navigation Menu */}
           <motion.div variants={fadeIn} className="space-y-6">
-            <h3 className="text-lg font-medium mb-4 relative tracking-tight">
+            <h3 className=" font-medium mb-4 text-xs relative tracking-tight">
               Quick Links
               <span className="absolute bottom-0 left-0 w-12 h-1 bg-blue-600"></span>
             </h3>
@@ -70,13 +70,12 @@ export default function Footer() {
                   { label: "Home", href: "/" },
                   { label: "About", href: "/about" },
                   { label: "Academics", href: "/academics" },
-                  { label: "Events", href: "/events" },
                   { label: "Fees", href: "/fees" },
                 ].map((link) => (
                   <motion.li key={link.href} variants={staggerItem}>
                     <Link
                       href={link.href}
-                      className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
+                      className="text-gray-300 hover:text-white text-xs transition-colors duration-300 flex items-center"
                     >
                       <span className="mr-2">›</span> {link.label}
                     </Link>
@@ -88,7 +87,7 @@ export default function Footer() {
 
           {/* Contact Information */}
           <motion.div variants={fadeIn} className="space-y-6">
-            <h3 className="text-lg font-medium mb-4 relative tracking-tight">
+            <h3 className=" font-medium mb-4 text-xs relative tracking-tight">
               Contact Us
               <span className="absolute bottom-0 left-0 w-12 h-1 bg-blue-600"></span>
             </h3>
@@ -100,57 +99,46 @@ export default function Footer() {
               className="space-y-4"
             >
               <motion.li variants={staggerItem} className="flex items-start">
-                <MapPin className="h-5 w-5 text-blue-500 mr-3 mt-1" />
-                <span>Congo Town, Monrovia, Liberia</span>
-              </motion.li>
-              <motion.li variants={staggerItem} className="flex items-start">
-                <Phone className="h-5 w-5 text-blue-500 mr-3 mt-1" />
-                <span>+231 XX XXX XXXX</span>
+                <MapPin className="h-5 w-5 text-blue-500 text-xs mr-3 mt-1" />
+                <span className="text-xs text-white">Congo Town, Monrovia, Liberia</span>
               </motion.li>
               <motion.li variants={staggerItem} className="flex items-start">
                 <Mail className="h-5 w-5 text-blue-500 mr-3 mt-1" />
-                <span>info@rhemaschool.edu.lr</span>
+                <span className="text-xs text-white">info@rpss.academy</span>
               </motion.li>
             </motion.ul>
           </motion.div>
 
           {/* School Hours */}
           <motion.div variants={fadeIn} className="space-y-6">
-            <h3 className="text-lg font-medium mb-4 relative tracking-tight">
+            <h3 className="font-medium mb-4 text-xs text-white relative tracking-tight">
               School Hours
               <span className="absolute bottom-0 left-0 w-12 h-1 bg-blue-600"></span>
             </h3>
             <ul className="space-y-3 text-gray-300 font-light">
               <li className="flex justify-between">
-                <span>Monday - Friday:</span>
-                <span>8:00 AM - 3:00 PM</span>
+                <span className="text-xs text-white">Monday - Friday:</span>
+                <span className="text-xs text-white">8:00 AM - 3:00 PM</span>
               </li>
               <li className="flex justify-between">
-                <span>Saturday:</span>
-                <span>9:00 AM - 12:00 PM</span>
+                <span className="text-xs text-white">Saturday:</span>
+                <span className="text-xs text-white">9:00 AM - 12:00 PM</span>
               </li>
               <li className="flex justify-between">
-                <span>Sunday:</span>
-                <span>Closed</span>
+                <span className="text-xs text-white">Sunday:</span>
+                <span className="text-xs text-white">Closed</span>
               </li>
             </ul>
-            <div className="pt-4">
-              <Link
-                href="/about#contact"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md inline-block transition-colors duration-300"
-              >
-                Get in Touch
-              </Link>
-            </div>
+            
           </motion.div>
         </div>
 
         {/* Footer bottom */}
         <motion.div
           variants={fadeIn}
-          className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 font-light"
+          className="border-t border-gray-800 mt-12 pt-8 text-center text-white font-light"
         >
-          <p>© {currentYear} RHEMA PRIMARY & SECONDARY SCHOOL SYSTEM. All rights reserved.</p>
+          <p className="text-white text-sm">© {currentYear} RHEMA PRIMARY & SECONDARY SCHOOL SYSTEM. All rights reserved.</p>
         </motion.div>
       </div>
     </motion.footer>
